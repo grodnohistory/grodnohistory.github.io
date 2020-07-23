@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color:#1e1e1e;
+    background-color: #fff;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+.year{
+    font-size: 62px;
+    margin-left: 70px;
+}
+
+.text{
+    max-width: 500px;
+    margin: 40px 0;
+    font-size: 16px;
+    line-height: 30px;
+}
+.text-noflex{
+    max-width: 1200px;
+}
+h2{
+    margin-bottom: 20px;
+}
+
+
+
+.block{
+    background: url(img/greyR.png);
+    background-size: cover;
+    
+    margin-top:100px;
+    margin-bottom: 40px;
+    margin-left: -25px;
+}
+.line-h{
+   padding-top: 110px;
+    
+    
+}
+
+.text-white{
+    color: #fff;
+    
+}
+
+.to-top{
+    margin-top: -125px;
+}
+
+.to-bottom{
+    margin-top: 100px;
+}
+
+.city{
+    background-color:rgb(17, 17, 17);
+    
+}
+
+.city-img{
+    max-width: 100%;
+}
+.top-padding{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-grey{
+    filter: grayscale(100%); 
+    transition: filter .1s linear;
+}
+.img-grey:hover{
+    filter: none;
+}
+
+
+.timeline{
+    margin-left: 380px;
+}
+
+.top{
+    margin-top: 50px;
+}
+
+.grey3{
+    background-image: url(img/grey3.png);
+}
+.grey{
+    background-color: #111;
+}
+
+.padd{
+    padding-top: 128px;
+}
+
+@media (min-width: 300px) {
+  
+  }
+
+/* Средние устройства (md, 768px и выше) */
+@media (min-width: 768px) {  }
+
+/* Большие устройства (lg, 992px и выше) */
+@media (min-width: 992px) {  }
+
+/* Очень большие устройства (xs, 1200px и выше) */
+@media (min-width: 1200px) {  }
